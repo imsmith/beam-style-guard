@@ -1,0 +1,8 @@
+{
+  "name": "beam-style-guard",
+  "version": "0.1.0",
+  "description": "Enforces BEAM/Elixir style guide principles via automated checks and on-demand audits",
+  "author": {
+    "name": "imsmith"
+  }
+}

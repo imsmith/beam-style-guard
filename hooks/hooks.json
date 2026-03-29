@@ -1,0 +1,17 @@
+{
+  "description": "BEAM style guard hook — checks .ex/.exs files against style rules on every Write/Edit",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/check-elixir-style.sh",
+            "timeout": 10000
+          }
+        ]
+      }
+    ]
+  }
+}
